@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="base">
+      <UniqueIdentifier>{3d2776b1-0604-4523-b292-386a3fa0a3c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="city">
+      <UniqueIdentifier>{f1152dc5-e953-47b4-bdbd-05eb92f6609d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="civil_time">
+      <UniqueIdentifier>{895e1613-6ea3-402f-9ee2-ee17aeee3dfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cord">
+      <UniqueIdentifier>{24b094c3-6edd-4bd2-832b-e0ed7c819c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cord_internal">
+      <UniqueIdentifier>{f7b78104-df58-405a-887a-ab3d3c8c4299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cordz_functions">
+      <UniqueIdentifier>{c7fa4491-9657-4b8a-a0c6-c10ddb0120b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cordz_handle">
+      <UniqueIdentifier>{2c023ae1-13cb-4405-b9f7-55143a70a2cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cordz_info">
+      <UniqueIdentifier>{f04b7d62-cd23-451f-a26a-18aceeebd1b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cordz_sample_token">
+      <UniqueIdentifier>{784c34d4-7806-4536-83e0-291438734890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crc_cord_state">
+      <UniqueIdentifier>{57a5cce8-5237-44b4-8173-dfefc2600442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crc_cpu_detect">
+      <UniqueIdentifier>{98ba1cfe-f958-43c1-93fb-6b14b446cc1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crc_internal">
+      <UniqueIdentifier>{216e0ca2-abc2-4b9b-8d42-a02cb7eb9db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crc32c">
+      <UniqueIdentifier>{037104c8-05fa-496d-8dd0-5344fa6f7295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debugging_internal">
+      <UniqueIdentifier>{46ec8f5a-d9e1-4ce0-8427-062495626102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="decode_rust_punycode">
+      <UniqueIdentifier>{e7051c72-3e61-4000-a393-6120b73aeeee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demangle_internal">
+      <UniqueIdentifier>{63e14422-40c9-4b4b-82e5-a8cffffa9828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demangle_rust">
+      <UniqueIdentifier>{a43ff618-25c8-4ffc-b6d1-7903dcedbd8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="die_if_null">
+      <UniqueIdentifier>{0c23ddc0-8fd0-4c9d-921b-750c8c1102dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examine_stack">
+      <UniqueIdentifier>{abb23df4-5e9e-4371-a1a1-3fb5412fddd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exponential_biased">
+      <UniqueIdentifier>{b50f54a1-b267-4f4f-80ee-63485cfac2ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="failure_signal_handler">
+      <UniqueIdentifier>{b16931bc-1991-425a-b2fe-5588fde3f0ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flags_commandlineflag">
+      <UniqueIdentifier>{baca7943-6e18-4863-9f3d-4d9ce3166434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flags_commandlineflag_internal">
+      <UniqueIdentifier>{95b86fad-b299-4945-bcdd-908ba6e89035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flags_config">
+      <UniqueIdentifier>{92fd2e5e-79e3-469b-abd7-61ae105ca095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flags_internal">
+      <UniqueIdentifier>{a0b920cb-bc5b-4694-ac49-fb4fb9ce22d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flags_marshalling">
+      <UniqueIdentifier>{d7479759-e315-46f4-9198-4ecffb986c31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flags_parse">
+      <UniqueIdentifier>{181724bd-6707-485c-862c-298b554ba01f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flags_private_handle_accessor">
+      <UniqueIdentifier>{19d17db4-be24-4d22-aa62-008e85300d49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flags_program_name">
+      <UniqueIdentifier>{f21f423f-8bc6-4371-aff2-9a97d6f3d1f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flags_reflection">
+      <UniqueIdentifier>{87f739c7-0051-4d60-a00e-136db76af9e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flags_usage">
+      <UniqueIdentifier>{0fcc873e-325c-4c7a-abd1-1997e1744f3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="flags_usage_internal">
+      <UniqueIdentifier>{aca17901-ceb6-4ab2-8cc8-eba3e23922b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphcycles_internal">
+      <UniqueIdentifier>{114d04bd-c4eb-48a2-8845-d4d68f590e02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hash">
+      <UniqueIdentifier>{fb087551-2971-419b-b6b1-f57f9391a50c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hashtable_profiler">
+      <UniqueIdentifier>{6f11e6cb-4d4b-4f63-9a52-7971d1125276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hashtablez_sampler">
+      <UniqueIdentifier>{fb20b3ea-563a-4909-a6fa-7237b31358a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="int128">
+      <UniqueIdentifier>{cb9c2c4a-813d-4456-9824-acab9cb96206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kernel_timeout_internal">
+      <UniqueIdentifier>{780f902a-e14a-4c61-9672-2d938da5d6d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="leak_check">
+      <UniqueIdentifier>{ad1e5a5b-25d5-4ac6-b1f0-1fc7b15974fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log_entry">
+      <UniqueIdentifier>{0c9c9c38-a84c-4623-87a0-fe8120412078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log_flags">
+      <UniqueIdentifier>{a0161fc8-4063-4b7d-bce7-4ca16efc1a6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log_globals">
+      <UniqueIdentifier>{2b965cb9-bedd-404b-8727-ea979364ce8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log_initialize">
+      <UniqueIdentifier>{72431cb2-f068-4014-b0aa-f626f03b0181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log_internal_check_op">
+      <UniqueIdentifier>{682e04f9-b57b-4cb5-9c26-67b64f5caa00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log_internal_conditions">
+      <UniqueIdentifier>{a7104f1f-b580-4723-a7ac-31bc3df68e4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log_internal_fnmatch">
+      <UniqueIdentifier>{672bc5ff-1a27-4059-acb3-120228ce4ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log_internal_format">
+      <UniqueIdentifier>{b3cf0710-e14f-478b-9f7a-c5b4bc58c73f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log_internal_globals">
+      <UniqueIdentifier>{f0f11326-c7af-4ae9-bc76-a310afa1dd51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log_internal_log_sink_set">
+      <UniqueIdentifier>{652cdd1f-6ff7-4d90-9d86-fb6d9bd74742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log_internal_message">
+      <UniqueIdentifier>{36ad34a8-bea8-4ed1-be1c-24b2ca16ae39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log_internal_nullguard">
+      <UniqueIdentifier>{accdf652-2f8f-487a-b16c-5c89cb3eb60d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log_internal_proto">
+      <UniqueIdentifier>{dd923b84-b31a-435d-9c51-ab35cc4380d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log_internal_structured_proto">
+      <UniqueIdentifier>{03fac4aa-7b9e-4d60-ae84-3edca18fac10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log_severity">
+      <UniqueIdentifier>{c1543d87-e478-47ea-a748-4eb59ac12d00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log_sink">
+      <UniqueIdentifier>{5fe36d00-486e-4cac-af79-b493afa96f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="malloc_internal">
+      <UniqueIdentifier>{21fee181-996e-4fa0-ba74-cf5168459d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="periodic_sampler">
+      <UniqueIdentifier>{48ea2700-7ede-4318-9ad4-77cd519f5b0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="poison">
+      <UniqueIdentifier>{72dce681-7ced-4eba-aeca-44890e272809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="profile_builder">
+      <UniqueIdentifier>{e1c9af27-952c-4a49-bef2-5674c5eef7fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="random_distributions">
+      <UniqueIdentifier>{575fe2d5-d103-4ac2-aaee-ae93d9fa890b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="raw_logging_internal">
+      <UniqueIdentifier>{be628139-bb1b-4228-a438-7c7d30bd6718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="random_internal_distribution_test_util">
+      <UniqueIdentifier>{31f785e7-2296-4196-942e-7ca3516d5431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="random_internal_entropy_pool">
+      <UniqueIdentifier>{91e52b0d-74c7-4072-9d93-b58b01ec65dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="random_internal_platform">
+      <UniqueIdentifier>{571c47bb-0c88-4824-a3eb-93a252b52401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="random_internal_randen">
+      <UniqueIdentifier>{9fc29c8f-47be-4f54-b232-2c61e7077e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="random_internal_randen_hwaes">
+      <UniqueIdentifier>{fd38954c-5ff9-4e5a-a97b-6c02e8f129ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="random_internal_randen_hwaes_impl">
+      <UniqueIdentifier>{127647ff-3281-4c29-b771-be745988c27b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="random_internal_randen_slow">
+      <UniqueIdentifier>{71455a5a-2a11-48dd-91be-34c91927f3a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="random_internal_seed_material">
+      <UniqueIdentifier>{3614d8a5-927d-4122-9636-7a2098c41de0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="random_seed_gen_exception">
+      <UniqueIdentifier>{0277df44-77a1-4bf9-8bfd-27a9561c9870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="random_seed_sequences">
+      <UniqueIdentifier>{efd7dc31-f6ff-4aab-ada4-14824e5d0f75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="raw_hash_set">
+      <UniqueIdentifier>{87085dd6-5bdd-403c-934d-a20f7e5f7b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scoped_set_env">
+      <UniqueIdentifier>{ab58b46b-700a-41f4-bda9-e773311185f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="strings">
+      <UniqueIdentifier>{7214c934-1a06-4ce6-943c-8a0ee6909936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="string_view">
+      <UniqueIdentifier>{033dcf3d-85d0-4aee-b99a-4258adb01d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="strerror">
+      <UniqueIdentifier>{940fad84-3478-4a64-9119-fc5612cf523b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="str_format_internal">
+      <UniqueIdentifier>{a030abb9-3a53-4b40-98cb-3f45920e85f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="statusor">
+      <UniqueIdentifier>{168fdec0-0754-434a-a7a8-dccb90ce8c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="status">
+      <UniqueIdentifier>{a16176af-7a89-4985-aa64-48800e836992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stacktrace">
+      <UniqueIdentifier>{27f3e11f-bb02-44b4-8367-283cfc3d8ad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="spinlock_wait">
+      <UniqueIdentifier>{ca8b2271-d3e8-4247-a69c-2634bad2d071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="symbolize">
+      <UniqueIdentifier>{7692be24-2338-440e-afee-91dc1fc3fc74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="synchronization">
+      <UniqueIdentifier>{8e53ae49-5c81-44e8-ae2a-4d7297387256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="throw_delegate">
+      <UniqueIdentifier>{7c688e7b-23ab-46b2-b1a5-18c8678f8e5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="time">
+      <UniqueIdentifier>{231fd44f-6d25-4bf5-a6f5-15995a3da612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="time_zone">
+      <UniqueIdentifier>{62b2ce09-bd15-4283-98de-bf2de400c06d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tracing_internal">
+      <UniqueIdentifier>{c12357d3-fea9-46bb-8f51-f21f598d6dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utf8_for_code_point">
+      <UniqueIdentifier>{59696212-6519-46a4-b7c8-cbec62b42913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vlog_config_internal">
+      <UniqueIdentifier>{56ebca30-a2af-425e-a92d-43aedc39e90d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="strings_internal">
+      <UniqueIdentifier>{00961b50-6c18-4b24-9713-c9d0b717a821}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\absl\base\internal\cycleclock.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\base\internal\spinlock.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\base\internal\sysinfo.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\base\internal\thread_identity.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\base\internal\unscaledcycleclock.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\hash\internal\city.cc">
+      <Filter>city</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\time\internal\cctz\src\civil_time_detail.cc">
+      <Filter>civil_time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\cord.cc">
+      <Filter>cord</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\cord_analysis.cc">
+      <Filter>cord</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\cord_internal.cc">
+      <Filter>cord_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\cord_rep_btree.cc">
+      <Filter>cord_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\cord_rep_btree_navigator.cc">
+      <Filter>cord_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\cord_rep_btree_reader.cc">
+      <Filter>cord_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\cord_rep_consume.cc">
+      <Filter>cord_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\cord_rep_crc.cc">
+      <Filter>cord_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\cordz_functions.cc">
+      <Filter>cordz_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\cordz_handle.cc">
+      <Filter>cordz_handle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\cordz_info.cc">
+      <Filter>cordz_info</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\cordz_sample_token.cc">
+      <Filter>cordz_sample_token</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\crc\internal\crc_cord_state.cc">
+      <Filter>crc_cord_state</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\crc\internal\cpu_detect.cc">
+      <Filter>crc_cpu_detect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\crc\internal\crc_x86_arm_combined.cc">
+      <Filter>crc_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\crc\internal\crc.cc">
+      <Filter>crc_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\crc\internal\crc_memcpy_fallback.cc">
+      <Filter>crc32c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\crc\internal\crc_memcpy_x86_arm_combined.cc">
+      <Filter>crc32c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\crc\internal\crc_non_temporal_memcpy.cc">
+      <Filter>crc32c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\crc\crc32c.cc">
+      <Filter>crc32c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\debugging\internal\vdso_support.cc">
+      <Filter>debugging_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\debugging\internal\address_is_readable.cc">
+      <Filter>debugging_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\debugging\internal\elf_mem_image.cc">
+      <Filter>debugging_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\debugging\internal\decode_rust_punycode.cc">
+      <Filter>decode_rust_punycode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\debugging\internal\demangle.cc">
+      <Filter>demangle_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\debugging\internal\demangle_rust.cc">
+      <Filter>demangle_rust</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\log\die_if_null.cc">
+      <Filter>die_if_null</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\debugging\internal\examine_stack.cc">
+      <Filter>examine_stack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\profiling\internal\exponential_biased.cc">
+      <Filter>exponential_biased</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\debugging\failure_signal_handler.cc">
+      <Filter>failure_signal_handler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\flags\commandlineflag.cc">
+      <Filter>flags_commandlineflag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\flags\internal\commandlineflag.cc">
+      <Filter>flags_commandlineflag_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\flags\usage_config.cc">
+      <Filter>flags_config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\flags\internal\flag.cc">
+      <Filter>flags_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\flags\marshalling.cc">
+      <Filter>flags_marshalling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\flags\parse.cc">
+      <Filter>flags_parse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\flags\internal\private_handle_accessor.cc">
+      <Filter>flags_private_handle_accessor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\flags\internal\program_name.cc">
+      <Filter>flags_program_name</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\flags\reflection.cc">
+      <Filter>flags_reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\flags\usage.cc">
+      <Filter>flags_usage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\flags\internal\usage.cc">
+      <Filter>flags_usage_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\synchronization\internal\graphcycles.cc">
+      <Filter>graphcycles_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\hash\internal\hash.cc">
+      <Filter>hash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\profiling\hashtable.cc">
+      <Filter>hashtable_profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\container\internal\hashtablez_sampler.cc">
+      <Filter>hashtablez_sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\container\internal\hashtablez_sampler_force_weak_definition.cc">
+      <Filter>hashtablez_sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\numeric\int128.cc">
+      <Filter>int128</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\synchronization\internal\kernel_timeout.cc">
+      <Filter>kernel_timeout_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\debugging\leak_check.cc">
+      <Filter>leak_check</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\log\log_entry.cc">
+      <Filter>log_entry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\log\flags.cc">
+      <Filter>log_flags</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\log\globals.cc">
+      <Filter>log_globals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\log\initialize.cc">
+      <Filter>log_initialize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\log\internal\check_op.cc">
+      <Filter>log_internal_check_op</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\log\internal\conditions.cc">
+      <Filter>log_internal_conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\log\internal\fnmatch.cc">
+      <Filter>log_internal_fnmatch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\log\internal\log_format.cc">
+      <Filter>log_internal_format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\log\internal\globals.cc">
+      <Filter>log_internal_globals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\log\internal\log_sink_set.cc">
+      <Filter>log_internal_log_sink_set</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\log\internal\log_message.cc">
+      <Filter>log_internal_message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\log\internal\nullguard.cc">
+      <Filter>log_internal_nullguard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\log\internal\proto.cc">
+      <Filter>log_internal_proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\log\internal\structured_proto.cc">
+      <Filter>log_internal_structured_proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\base\log_severity.cc">
+      <Filter>log_severity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\log\log_sink.cc">
+      <Filter>log_sink</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\base\internal\low_level_alloc.cc">
+      <Filter>malloc_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\profiling\internal\periodic_sampler.cc">
+      <Filter>periodic_sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\base\internal\poison.cc">
+      <Filter>poison</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\profiling\internal\profile_builder.cc">
+      <Filter>profile_builder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\random\discrete_distribution.cc">
+      <Filter>random_distributions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\random\gaussian_distribution.cc">
+      <Filter>random_distributions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\random\internal\chi_square.cc">
+      <Filter>random_internal_distribution_test_util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\random\internal\distribution_test_util.cc">
+      <Filter>random_internal_distribution_test_util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\random\internal\entropy_pool.cc">
+      <Filter>random_internal_entropy_pool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\random\internal\randen_round_keys.cc">
+      <Filter>random_internal_platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\random\internal\randen.cc">
+      <Filter>random_internal_randen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\random\internal\randen_detect.cc">
+      <Filter>random_internal_randen_hwaes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\random\internal\randen_hwaes.cc">
+      <Filter>random_internal_randen_hwaes_impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\random\internal\randen_slow.cc">
+      <Filter>random_internal_randen_slow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\random\internal\seed_material.cc">
+      <Filter>random_internal_seed_material</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\random\seed_gen_exception.cc">
+      <Filter>random_seed_gen_exception</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\random\seed_sequences.cc">
+      <Filter>random_seed_sequences</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\container\internal\raw_hash_set.cc">
+      <Filter>raw_hash_set</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\base\internal\raw_logging.cc">
+      <Filter>raw_logging_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\base\internal\scoped_set_env.cc">
+      <Filter>scoped_set_env</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\ascii.cc">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\charconv.cc">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\charconv_bigint.cc">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\charconv_parse.cc">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\damerau_levenshtein_distance.cc">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\escaping.cc">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\match.cc">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\memutil.cc">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\numbers.cc">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\str_cat.cc">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\str_replace.cc">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\str_split.cc">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\stringify_sink.cc">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\substitute.cc">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\string_view.cc">
+      <Filter>string_view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\base\internal\strerror.cc">
+      <Filter>strerror</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\str_format\arg.cc">
+      <Filter>str_format_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\str_format\bind.cc">
+      <Filter>str_format_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\str_format\extension.cc">
+      <Filter>str_format_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\str_format\float_conversion.cc">
+      <Filter>str_format_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\str_format\output.cc">
+      <Filter>str_format_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\str_format\parser.cc">
+      <Filter>str_format_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\status\statusor.cc">
+      <Filter>statusor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\status\status.cc">
+      <Filter>status</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\status\internal\status_internal.cc">
+      <Filter>status</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\status\status_payload_printer.cc">
+      <Filter>status</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\debugging\stacktrace.cc">
+      <Filter>stacktrace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\base\internal\spinlock_wait.cc">
+      <Filter>spinlock_wait</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\debugging\symbolize.cc">
+      <Filter>symbolize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\synchronization\barrier.cc">
+      <Filter>synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\synchronization\blocking_counter.cc">
+      <Filter>synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\synchronization\internal\create_thread_identity.cc">
+      <Filter>synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\synchronization\internal\futex_waiter.cc">
+      <Filter>synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\synchronization\mutex.cc">
+      <Filter>synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\synchronization\notification.cc">
+      <Filter>synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\synchronization\internal\per_thread_sem.cc">
+      <Filter>synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\synchronization\internal\pthread_waiter.cc">
+      <Filter>synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\synchronization\internal\sem_waiter.cc">
+      <Filter>synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\synchronization\internal\stdcpp_waiter.cc">
+      <Filter>synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\synchronization\internal\waiter_base.cc">
+      <Filter>synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\synchronization\internal\win32_waiter.cc">
+      <Filter>synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\base\internal\throw_delegate.cc">
+      <Filter>throw_delegate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\time\civil_time.cc">
+      <Filter>time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\time\clock.cc">
+      <Filter>time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\time\duration.cc">
+      <Filter>time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\time\format.cc">
+      <Filter>time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\time\time.cc">
+      <Filter>time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\time\internal\cctz\src\time_zone_fixed.cc">
+      <Filter>time_zone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\time\internal\cctz\src\time_zone_format.cc">
+      <Filter>time_zone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\time\internal\cctz\src\time_zone_if.cc">
+      <Filter>time_zone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\time\internal\cctz\src\time_zone_impl.cc">
+      <Filter>time_zone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\time\internal\cctz\src\time_zone_info.cc">
+      <Filter>time_zone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\time\internal\cctz\src\time_zone_libc.cc">
+      <Filter>time_zone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\time\internal\cctz\src\time_zone_lookup.cc">
+      <Filter>time_zone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\time\internal\cctz\src\time_zone_posix.cc">
+      <Filter>time_zone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\time\internal\cctz\src\zone_info_source.cc">
+      <Filter>time_zone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\base\internal\tracing.cc">
+      <Filter>tracing_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\debugging\internal\utf8_for_code_point.cc">
+      <Filter>utf8_for_code_point</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\log\internal\vlog_config.cc">
+      <Filter>vlog_config_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\escaping.cc">
+      <Filter>strings_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\ostringstream.cc">
+      <Filter>strings_internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\absl\strings\internal\utf8.cc">
+      <Filter>strings_internal</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
