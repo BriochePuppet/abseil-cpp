@@ -693,31 +693,9 @@ set(ABSL_INTERNAL_TEST_DLL_TARGETS
 
 include(CheckCXXSourceCompiles)
 
-check_cxx_source_compiles(
-  [==[
-#ifdef _MSC_VER
-#  if _MSVC_LANG < 201703L
-#    error "The compiler defaults or is configured for C++ < 17"
-#  endif
-#elif __cplusplus < 201703L
-#  error "The compiler defaults or is configured for C++ < 17"
-#endif
-int main() { return 0; }
-]==]
-  ABSL_INTERNAL_AT_LEAST_CXX17)
+set(ABSL_INTERNAL_AT_LEAST_CXX17 true)
 
-check_cxx_source_compiles(
-  [==[
-#ifdef _MSC_VER
-#  if _MSVC_LANG < 202002L
-#    error "The compiler defaults or is configured for C++ < 20"
-#  endif
-#elif __cplusplus < 202002L
-#  error "The compiler defaults or is configured for C++ < 20"
-#endif
-int main() { return 0; }
-]==]
-  ABSL_INTERNAL_AT_LEAST_CXX20)
+set(ABSL_INTERNAL_AT_LEAST_CXX20 false)
 
 if(ABSL_INTERNAL_AT_LEAST_CXX20)
   set(ABSL_INTERNAL_CXX_STD_FEATURE cxx_std_20)
